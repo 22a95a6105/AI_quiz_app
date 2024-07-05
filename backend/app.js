@@ -10,7 +10,7 @@ mongoose.connect('mongodb+srv://vardhanjay84:U4FD81ubMhrTmo5I@cluster0.ktrkfrk.m
   .then(() => console.log('Connected to MongoDB'))
   .catch(err => console.error('Error connecting to MongoDB:', err));
 const openai = new OpenAI({
-  apiKey:"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"
+  apiKey:"replace with your api key"
 })
 
 // Define mongoose schema
